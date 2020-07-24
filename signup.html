@@ -97,14 +97,20 @@
 	}	
 	.signup-form form a:hover{
 		text-decoration: underline;
-	}  
+	}
+    @media(max-width: 800px){
+
+        #mobile{
+            width: 100%;
+        }
+    }
 </style>
 </head>
 <body>
-<div class="signup-form">
+<div class="signup-form" id="mobile">
     <form action="/examples/actions/confirmation.php" method="post">
 		<h2>Register</h2>
-		<p class="hint-text">Request for a account. It's free and only takes a minute.</p>
+		<p class="hint-text">Request for a account. It's free and only takes a minute to fill the form.</p>
         <div class="form-group">
 			<input type="text" class="form-control" name="user-name" placeholder="Username you want" required="required">
         </div>
