@@ -2,4 +2,5 @@
 
  Repository for 'I am Speaking' Social Media Handle.
 ## Aims
-No specific aims at the moment.
+
+I aim to complete this project by Novemeber 2020 
